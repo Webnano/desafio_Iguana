@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: raleway;
+    background-color: black;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: normal;
+    padding: 0px;
+    margin: 0px;
+    width: 65em;
+    } 
+
+.inicio{
+    background-color: black;
+    width: 1280px;
+    height: 73px;
+    display: block;
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+}
+
+.inicio h1{
+    color: white;
+    text-align: center;
+}
+
+.iguana{   
+    width: 1280px;
+    height: 727px;
+    display: block;
+    object-fit: cover;
+    position: relative;
+    opacity: 1;
+}
+
+.caja1{
+    display: flex;
+    justify-content: space-around;
+    top: 800px;
+    left: 0px;
+    width: 1280px;
+    height: 348px;
+    opacity: 1;
+    
+}
+
+.texto{
+    top: 876px;
+    left: 150px;
+    width: 475px;
+    height: 197px;
+    text-align: left;
+    font: normal normal 300 16px/19px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.iguanita{
+    top: 845px;
+    left: 731px;
+    width: 399px;
+    height: 237px;
+    opacity: 1;
+    display: flex;
+  
+}
+
+.caracteristicas{
+    padding: 20px;
+    width: 1280px;
+    height: 50px;
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    text-align: center;
+    font:  normal normal medium 40px/47px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 0.98;
+   
+}
+
+.contenedor{
+    background-color: #1E1A13 ;
+    display: flex;
+    justify-content: space-around;
+    
+    color: #FFFFFF;
+    padding: 10px;
+    width: 65em;
+    opacity: 0.98;
+    
+}
+
+h3{
+    padding-top: 1em;
+    font-family: "raleway", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    opacity: 1;
+}
+
+.contenedor div {
+    text-align: center;
+      
+}
+
+.galeria{
+    width: 1280;
+    height: 348px;
+    gap: 16px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.96;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.imagenes{
+    width: auto;
+    padding: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 316px;
+    height: 202px;
+    opacity: 1;
+    
+    
+}
+.final{
+    background-color: #1E1A13;
+    margin: 0;
+    padding: 0;
+    width: 66em;
+    height: 76px;   
+    display:flex;
+   justify-content: center;
+    opacity: 0.94;
+}
+.final p{ 
+    width: 682px;
+    height: 24px;
+    padding: 5px;
+    color: white;
+    text-align: left;
+    font: normal normal 300 20px/24px Raleway;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+.final p:hover{
+color:rgb(5, 78, 5)
+}
